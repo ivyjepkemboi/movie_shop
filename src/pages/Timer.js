@@ -27,8 +27,6 @@ useTitle('countdown')
     return null;
   }
 
-
-
   return (
     <div className="p-4 h-screen">
       <div className="bg-gray-200 p-6 rounded-lg">
