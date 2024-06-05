@@ -32,7 +32,7 @@ const MovieDetails = () => {
   return (
     <div className=" h-1/4 p-4 justify-center items-center">
       <h1 className="text-2xl mb-6 text-center font-bold">{movie.title}</h1>
-      <div className="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-6 flex flex-col md:flex-row items-center md:items-start">
+      <div className="border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 p-6 flex flex-col md:flex-row items-center md:items-start w-1/2 mx-auto">
       <img className="rounded-lg w-full md:w-48 h-auto mb-6 md:mr-6" src={movie.poster} alt={movie.title} />
         <div className="md:w-1/2">
           <p className="text-gray-700 dark:text-gray-400 mb-4"><strong>Plot:</strong> {movie.plot}</p>
